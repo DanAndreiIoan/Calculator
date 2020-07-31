@@ -16,6 +16,18 @@ public class App
         System.out.println("Rezultatul este " + rezultatul);
 
 
+        double c = 7.3;
+        double d = 3.2;
+        System.out.println("Calculeaza suma " + c + " si " + d);
+        double doubleSum = calculator.sum(c,d);
+        System.out.println("Suma este " + doubleSum);
+
+        System.out.println("Inmultirea " + c + " si " + d);
+        double doubleRezultatul = calculator.multiply(c ,d);
+        System.out.println("Rezultatul este " + doubleRezultatul);
+
+
+
     }
 
 }
